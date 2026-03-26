@@ -66,7 +66,7 @@ function App() {
     } else {
       setDisplayUserId("");
     }
-  }, [user]);
+  }, [user, userId]);
 
   const startEdit = (note) => {
     setEditingId(note.id);
