@@ -13,4 +13,4 @@ A simple notes app built using React + Firebase
 - Firebase
 
 ## Live Demo
-https://yournoteapp01.netlify.app/
+https://yournote01.netlify.app/
