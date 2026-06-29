@@ -1,16 +1,18 @@
-# YourNote App
-
-A simple notes app built using React + Firebase
-
-## Features
-- Add Notes
-- Edit Notes
-- Delete Notes
-- Authentication
-
-## Tech Stack
-- React
-- Firebase
-
-## Live Demo
-https://yournote01.netlify.app/
+YourNote-app/
+├── public/
+│   ├── index.html          # HTML template
+│   └── favicon.ico         # App icon
+├── src/
+│   ├── components/         # React components
+│   │   ├── NoteList.js
+│   │   ├── NoteForm.js
+│   │   ├── Auth.js
+│   │   └── ...
+│   ├── firebase/           # Firebase configuration
+│   │   └── config.js       # Firebase initialization
+│   ├── App.js              # Main App component
+│   ├── App.css             # Global styles
+│   └── index.js            # React DOM render
+├── package.json            # Dependencies and scripts
+├── README.md               # This file
+└── .env.local              # Environment variables (not in repo)
